@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Test results and reports
+test-results/
+**/test-results/
+playwright-report/
+**/playwright-report/
+blob-report/
+**/blob-report/
+
+# Playwright cache and auth
+playwright/.cache/
+**/playwright/.cache/
+playwright/.auth/
+**/playwright/.auth/
+
+# Environment & OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
